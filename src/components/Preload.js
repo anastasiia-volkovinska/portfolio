@@ -58,7 +58,6 @@ export default class Preload extends PIXI.Container {
     }
 
     startGame() {
-        console.log(this);
         this.removeChildren();
         game.createSnake();
         game.createFood();

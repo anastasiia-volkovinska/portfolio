@@ -117,8 +117,8 @@ export default class Game extends PIXI.Application {
 
     gameReload () {
         this.ticker.start();
-        console.log('i am here');
         this.stage.removeChildren();
+        console.log(this.stage);
         this.showPreload();
     }
 

@@ -51,7 +51,7 @@ p {
 
 .menu {
     position: fixed;
-    height: 950px;
+    height: 100vh;
     width: 100%;
     background-color: black;
     opacity: 0.9;

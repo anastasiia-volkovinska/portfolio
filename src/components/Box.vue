@@ -39,12 +39,12 @@ export default {
     }
     .box {
         width: 100%;
-        height: 280px;
+        height: 30vh;
         margin: 0.2%;
         padding: 15px;
         box-sizing: border-box;
         display: inline-block;
-      background: green;
+      background: #2d4c46;
       position: relative;
       overflow: hidden;
       box-shadow: 0 0 5px rgba(0,0,0,0.4);

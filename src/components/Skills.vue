@@ -39,8 +39,8 @@ export default {
 
 li {
     display: inline-block;
-    width: 20%;
-    max-width: 300px;
+    width: 30vh;
+    max-width: 320px;
     margin: 10px;
 }
 </style>

@@ -77,7 +77,7 @@ body > .js-Parallaxify { background-size: cover }
   left: 0;
 }
 
-$section-height: 950px;
+$section-height: 100vh;
 $bar-width: 40px;
 $bar-height: 3px;
 $bar-spacing: 10px;

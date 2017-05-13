@@ -4,7 +4,7 @@
     <home @home-click="homeClicked"></home>
     <skills :items="skillsItems"></skills>
 
-    <section class="game section">
+    <section class="game_section">
         <h1>GAME EXAMPLE</h1>
         <div id="game"></div>
     </section>
@@ -153,11 +153,13 @@ a {
     padding: 100px;
 }
 
-.gameEx {
-    background-color: black;
-    width: 80%;
-    height: 600px;
-    margin: auto;
+.game_section {
+    background-image: url("../assets/bg5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20vh 0;
 }
+
 
 </style>
